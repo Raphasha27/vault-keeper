@@ -1,23 +1,30 @@
 # Vault Keeper
 
-A local-first password manager with encryption, TOTP support, and CLI/terminal UI.
+Local-first encrypted password manager with PBKDF2 key derivation, TOTP support, and auto-lock
 
 ## Features
 
-- Encrypted local storage (AES-256-GCM)
-- TOTP (time-based one-time password) generation
-- CLI and terminal UI modes
-- Search and filter
-- CSV export/import
-- Clipboard integration
+- cli
+- cryptography
+- encryption
+- password-manager
+- security
+- totp
 
-## Quick Start
+## Getting Started
+
+Clone the repository:
 
 ```bash
-pip install -e .
-vault init          # Create a new vault (sets master password)
-vault add github    # Add a new entry
-vault list          # List all entries
-vault get github    # Show entry details
-vault totp github   # Generate TOTP code
+git clone https://github.com/Raphasha27/vault-keeper.git
+cd vault-keeper
 ```
+
+## Language
+
+![Language](https://img.shields.io/badge/language-Python-blue)
+
+## License
+
+Distributed under the MIT License.
+
